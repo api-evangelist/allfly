@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AllFly is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+AllFly is a modern travel platform that simplifies group and corporate travel. It offers a marketplace for booking flights for teams, custom charter services, and a forecasting tool to estimate travel costs. The platform provides resources such as blogs, case studies, and e‑books, and supports integrations for corporate travel management.
+
+**Areas:** Travel · CorporateTravel · Marketplace · Booking · Software-as-a-Service
+
+## AllFly on APIs.io
+
+Everything profiled for AllFly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/allfly/](https://apis.io/providers/allfly/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AllFly Connect API](https://apis.io/apis/allfly/allfly-connect-api/) — The Connect API from AllFly — 4 operation(s) for connect.
+- [AllFly Events API](https://apis.io/apis/allfly/allfly-events-api/) — The Events API from AllFly — 1 operation(s) for events.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiConnectV1WebhooksResponse](https://apis.io/schemas/allfly/allfly-get-api-connect-v1-webhooks-response/)
+- [GetApiConnectV1WebhooksWebhookidResponse](https://apis.io/schemas/allfly/allfly-get-api-connect-v1-webhooks-webhookid-response/)
+- [GetApiConnectV1WebhooksWebhookidSecretResponse](https://apis.io/schemas/allfly/allfly-get-api-connect-v1-webhooks-webhookid-secret-response/)
+- [PostApiConnectV1WebhooksRequest](https://apis.io/schemas/allfly/allfly-post-api-connect-v1-webhooks-request/)
+- [PostApiConnectV1WebhooksWebhookidSecretRotateResponse](https://apis.io/schemas/allfly/allfly-post-api-connect-v1-webhooks-webhookid-secret-rotate-response/)
+- [PutApiConnectV1WebhooksWebhookidRequest](https://apis.io/schemas/allfly/allfly-put-api-connect-v1-webhooks-webhookid-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Allfly Context](https://apis.io/jsonld/allfly/allfly-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AllFly API Rules](https://apis.io/rules/allfly/allfly-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Allfly Authentication](https://apis.io/security/allfly/allfly-authentication/)
+- [Allfly Domain Security](https://apis.io/security/allfly/allfly-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://allfly.io/)
+- [Documentation](https://help.allflyquest.com/en/)
+- [Pricing](https://allfly.io/post/priced-out-of-vegas-here-are-5-alternative-destinations-for-your-next-meeting)
+- [Support](https://help.allflyquest.com/en/)
+- [Blog](https://allfly.io/blog)
+- [Privacy policy](https://allfly.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 24.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 25.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/allfly/](https://apis.io/providers/allfly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AllFly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/allfly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
